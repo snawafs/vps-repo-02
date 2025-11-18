@@ -7,7 +7,7 @@ on:
 jobs:
   start-vps:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     env:
       VPS_NAME: ${{ github.event.client_payload.vps_name || 'manual-vps' }}
     steps:
