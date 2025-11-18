@@ -5,7 +5,7 @@ on:
 jobs:
   auto-vps:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 300
     steps:
     - uses: actions/checkout@v3
     - name: Auto VPS Session
